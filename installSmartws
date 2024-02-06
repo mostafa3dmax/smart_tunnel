@@ -22,7 +22,7 @@ if ! ls /etc/opt/$APPNAME/config; then
 fi
 
 
-groupadd smartws &1> /dev/null
+groupadd smartws 2> /dev/null
 ln -f -s /opt/$APPNAME/service/smartws.service /etc/systemd/system/smartws.service
 systemctl daemon-reload
 ln -f -s /opt/$APPNAME/script/smartws /usr/local/bin/smartws
