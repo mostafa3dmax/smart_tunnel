@@ -1,0 +1,34 @@
+#! /bin/bash
+APPNAME="smartws"
+if ls /tmp/$APPNAME.zip &> /dev/null ; then
+	read -p "$APPNAME.zip is already exists. Do you want to download it again ? y(es),n(o)" dowload_zip_again
+	if [[ "${dowload_zip_again,,}" == "y" ]] || [[ "${dowload_zip_again,,}" == "yes" ]]; then
+		wget -O /tmp/$APPNAME.zip https://github.com/mostafa3dmax/smart_tunnel/raw/main/smartws.zip
+		unzip /tmp/$APPNAME.zip -d /opt/$APPNAME 1> /dev/null
+	fi
+else
+	wget -O /tmp/$APPNAME.zip https://github.com/mostafa3dmax/smart_tunnel/raw/main/smartws.zip
+	unzip /tmp/$APPNAME.zip -d /opt/$APPNAME 1> /dev/null
+fi
+
+mkdir /etc/opt/$APPNAME &> /dev/null
+
+if ! ls /etc/opt/$APPNAME/config; then
+	read -p "$APPNAME config file is already exists. Do you want reaplace it ? y(es),n(o)" replace_config
+	if [[ "${replace_config,,}" == "y" ]] || [[ "${replace_config,,}" == "yes" ]]; then
+		cp -a /opt/$APPNAME/config/. /etc/opt/$APPNAME
+	fi
+	
+fi
+
+
+groupadd smartws &1> /dev/null
+ln -f -s /opt/$APPNAME/service/smartws.service /etc/systemd/system/smartws.service
+systemctl daemon-reload
+ln -f -s /opt/$APPNAME/script/smartws /usr/local/bin/smartws
+chmod +x /usr/local/bin/smartws
+
+rm /tmp/$APPNAME.zip
+systemctl enable smartws.service
+systemctl stop smartws.service
+systemctl start smartws.service
