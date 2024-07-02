@@ -2,41 +2,21 @@
   {
     "title" : "irancel or rightel",
     "persianTitle" : "ایرانسل یا رایتل",
-    "id" : "ircl-unlimited"
+    "id" : "ircl"
   },
   {
     "title" : "hamrah aval",
     "persianTitle" : "همراه اول",
-    "id" : "mc-i-unlimited"
+    "id" : "mc-i"
   },
   {
-    "title" : "irancel or rightel",
-    "persianTitle" : "ایرانسل یا رایتل",
-    "id" : "ircl-unlimited"
+    "title" : "temporari",
+    "persianTitle" : "موقت",
+    "id" : "temp"
   },
   {
-    "title" : "hamrah aval",
-    "persianTitle" : "همراه اول",
-    "id" : "mc-i-unlimited"
-  },
-  {
-    "title" : "irancel or rightel",
-    "persianTitle" : "ایرانسل یا رایتل",
-    "id" : "ircl-unlimited"
-  },
-  {
-    "title" : "hamrah aval",
-    "persianTitle" : "همراه اول",
-    "id" : "mc-i-unlimited"
-  },
-  {
-    "title" : "irancel or rightel",
-    "persianTitle" : "ایرانسل یا رایتل",
-    "id" : "ircl-unlimited"
-  },
-  {
-    "title" : "hamrah aval",
-    "persianTitle" : "همراه اول",
-    "id" : "mc-i-unlimited"
+    "title" : "Traffic Limited",
+    "persianTitle" : "ترافیک محدود",
+    "id" : "traffic-limited"
   }
 ]
