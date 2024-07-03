@@ -1,0 +1,22 @@
+[
+  {
+    "title" : "irancel or rightel",
+    "persianTitle" : "ایرانسل یا رایتل",
+    "id" : "ircl"
+  },
+  {
+    "title" : "hamrah aval",
+    "persianTitle" : "همراه اول",
+    "id" : "m-ci"
+  },
+  {
+    "title" : "temporari",
+    "persianTitle" : "موقت",
+    "id" : "temp"
+  },
+  {
+    "title" : "Traffic Limited",
+    "persianTitle" : "ترافیک محدود",
+    "id" : "traffic-limited"
+  }
+]
