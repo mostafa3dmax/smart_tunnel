@@ -10,6 +10,11 @@
     "id" : "m-ci"
   },
   {
+    "title" : "WIFI",
+    "persianTitle" : "وایفای",
+    "id" : "wifi"
+  },
+  {
     "title" : "temporari",
     "persianTitle" : "موقت",
     "id" : "temp"
