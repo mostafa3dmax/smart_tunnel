@@ -7,7 +7,7 @@
   "windows": {
     "version": "1.0.0",
     "versionCode": 1,
-    "url" : "https://raw.githubusercontent.com/mostafa3dmax/smart_tunnel/main/SmartTunnel-1.2.0.apk"
+    "url" : "https://raw.githubusercontent.com/mostafa3dmax/smart_tunnel/main/config_list"
   },
   "linux": {
     "version": "1.0.0",
