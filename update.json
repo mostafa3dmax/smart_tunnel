@@ -7,7 +7,7 @@
   "windows": {
     "version": "1.0.0",
     "versionCode": 1,
-    "url" : "https://raw.githubusercontent.com/mostafa3dmax/smart_tunnel/main/config_list"
+    "url" : "https://raw.githubusercontent.com/mostafa3dmax/smart_tunnel/main/SmartTunnelSetup.exe"
   },
   "linux": {
     "version": "1.0.0",
