@@ -1,8 +1,8 @@
 {
   "android": {
-    "version": "1.2.0",
-    "versionCode": 30,
-    "url" : "https://raw.githubusercontent.com/mostafa3dmax/smart_tunnel/main/SmartTunnel-1.2.0.apk"
+    "version": "1.2.03",
+    "versionCode": 33,
+    "url" : "https://raw.githubusercontent.com/mostafa3dmax/smart_tunnel/main/SmartTunnel-1.2.03.apk"
   },
   "windows": {
     "version": "1.0.2",
