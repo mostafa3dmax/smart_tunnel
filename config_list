@@ -5,9 +5,39 @@
     "id" : "ircl"
   },
   {
+    "title" : "irancel-1",
+    "persianTitle" : "ایرانسل-1",
+    "id" : "ircl1"
+  },
+  {
+    "title" : "irancel-2",
+    "persianTitle" : "ایرانسل-2",
+    "id" : "ircl2"
+  },
+  {
+    "title" : "irancel-3",
+    "persianTitle" : "ایرانسل-3",
+    "id" : "ircl3"
+  },
+  {
     "title" : "hamrah aval",
     "persianTitle" : "همراه اول",
     "id" : "m-ci"
+  },
+  {
+    "title" : "hamrah aval-1",
+    "persianTitle" : "همراه اول-1",
+    "id" : "m-ci1"
+  },
+  {
+    "title" : "hamrah aval-2",
+    "persianTitle" : "همراه اول-2",
+    "id" : "m-ci2"
+  },
+  {
+    "title" : "hamrah aval-3",
+    "persianTitle" : "همراه اول-3",
+    "id" : "m-ci3"
   },
   {
     "title" : "WIFI",
